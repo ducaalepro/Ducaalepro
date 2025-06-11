@@ -1,0 +1,13 @@
+{
+  "name": "Dpro Calorie Checker",
+  "short_name": "CalorieChecker",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Check food calories using image recognition, offline and online.",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}

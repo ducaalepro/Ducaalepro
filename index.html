@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dpro Calorie Checker</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>Dpro Calorie Checker</h1>
+  <p>Select a food image to analyze:</p>
+  <input type="file" accept="image/*" id="imageInput">
+  <img id="preview" src="" alt="Preview" style="max-width:100%; display:none;">
+  <div id="result"></div>
+  <button onclick="toggleLanguage()">Toggle Language</button>
+</body>
+</html>
